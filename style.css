@@ -1,0 +1,56 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: rgb(72, 67, 67);
+}
+.Container{
+    height: 450px;
+    width: 450px;
+    border: 1px solid rgb(56, 48, 48);
+    padding: 25px;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0px 3px 15px  rgba(50, 80, 95,1);
+
+}
+input{
+    width:300px;
+    height: 80px;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    font-size: 38px;
+    font-weight: bold;
+    background: transparent;
+    box-shadow: 0px 3px 15px  rgb(27, 39, 41);
+    cursor: pointer;
+    text-align: right;
+}
+button{
+    border:none;
+    width: 55px;
+    height: 52px;
+    margin: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(117, 58, 68);
+    cursor: pointer;
+}
+
+.equalbtn{
+    background: tomato;
+    height: 60px;
+}
+.oper{
+    color: white;
+}
